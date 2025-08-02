@@ -224,6 +224,9 @@
   .h-fit {
     height: fit-content;
   }
+  .h-screen {
+    height: 100vh;
+  }
   .max-h-fit {
     max-height: fit-content;
   }
@@ -273,6 +276,9 @@
   .resize {
     resize: both;
   }
+  .scroll-m-0 {
+    scroll-margin: calc(var(--spacing) * 0);
+  }
   .flex-col {
     flex-direction: column;
   }
@@ -314,6 +320,12 @@
   }
   .gap-y-30 {
     row-gap: calc(var(--spacing) * 30);
+  }
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  .scroll-smooth {
+    scroll-behavior: smooth;
   }
   .rounded-2xl {
     border-radius: var(--radius-2xl);
